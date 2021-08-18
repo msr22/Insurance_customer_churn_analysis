@@ -1,0 +1,33 @@
+Logistic Regression Train accuracy =  0.7098404255319148
+Logistic Regression Test accuracy =  0.6914893617021277
+Decision Tree Train accuracy =  0.8268617021276595
+Decision Tree Test accuracy =  0.8106382978723404
+Random forest test accuracy =  0.8127659574468085
+For Random Forest
+Confusion matrix, without normalization
+[[607  28]
+ [148 157]]
+Normalized confusion matrix
+[[0.96 0.04]
+ [0.49 0.51]]
+ 
+### Random Forest Feature Importance
+                                   Features  Importance
+2                                       Age    0.220653
+6                             NumOfProducts    0.117980
+5                                   Balance    0.097743
+8                           EstimatedSalary    0.090662
+10                             TotalCharges    0.088871
+0                               CreditScore    0.088007
+9                            MonthlyCharges    0.086896
+4                                    Tenure    0.056709
+7                            IsActiveMember    0.034818
+1                                    Gender    0.021415
+16                        Geography_Germany    0.017693
+3                                Dependents    0.014206
+11  PaymentMethod_Bank transfer (automatic)    0.011722
+15                         Geography_France    0.011534
+12    PaymentMethod_Credit card (automatic)    0.011008
+13           PaymentMethod_Electronic check    0.010912
+14               PaymentMethod_Mailed check    0.009660
+17                          Geography_Spain    0.009509
